@@ -1,0 +1,94 @@
+*{margin:0;padding:0; box-sizing:border-box;
+    font-family: 'IBM Plex Sans KR', sans-serif;}
+
+img{width:100%;}
+html, body{overflow-y:hidden}
+ul, ol{list-style:none}
+.header{position:fixed;z-index:10;top:0;width:100%; height:70px; background:rgba(255,255,255,0.5);}
+.header ul:after{content:"";display:block;clear:both;}
+.header ul li{float:left;border-left:1px solid rgba(255, 255, 255, 0);box-sizing:border-box;width:8%}
+.header ul li:first-child{border-left:none}
+.header ul li a{display:block;height:70px;text-align:center;line-height:70px;font-size:17px;text-decoration:none;color:#000;}
+.header ul li.on a{color:#000; font-weight:bold;}
+.header ul li:first-child{margin-left: 45%;}
+.logo{float:left; padding-top:20px; cursor:pointer; margin-left:3%;}
+.logo>img{width:150px; height: 35px;}
+#header_center{max-width:1600px; width:100%; margin:0 auto; height: 60px;}
+
+.content{}
+.content div{position:relative}
+/*
+.content div p{position:absolute;top:50%;margin-top:-40px;text-align:center;width:100%;font-size:80px;font-weight:bold;color:#fff}
+*/
+
+/*메인*/
+.content .cnt01{
+}
+.coupangman{width:50%; position:absolute !important; bottom:-4px; left:0;}
+.app{width:50%; height:100%; float: right; position:relative;}
+.app_txt{position:absolute !important; top:35%; left:10%;}
+.app_rocket{font-size:1rem; color:blue; width:200px;}
+.app_rocket_title{font-size:3rem; color: black; font-weight:bold;}
+.app_rocket_title2{font-size:2rem; color:black; margin-bottom:30px;}
+.app_rocket_btn{width:300px; height: 60px; background:#4e83d4; color: white; line-height:60px; text-align: center; cursor:pointer;}
+
+/*혜택종류*/
+.content .cnt02{background-color:#f8f8f8;}
+.contentarea{max-width:1300px; width:100%; margin: 0 auto; padding-top:110px;}
+.bene_all{text-align:center;}
+.bene_all>h2{margin-bottom:30px;}
+.bene_row{width:940px; height: 300px; margin:0 auto; margin-bottom: 40px;}
+.bene_row_u{width:620px; height: 300px; margin:0 auto;}
+.bene{width:300px; margin-right: 20px; height:310px; float: left;}
+.bene:last-child{margin-right:0;}
+.bene_u{width:300px; margin-right: 20px; height: 300px; float:left;}
+.bene_u:last-child{margin-right:0;}
+.bene_img{width:250px; height:250px; border-radius:250px; margin: 0 auto; margin-bottom: 10px; box-shadow: 1px 1px 3px #999;}
+.bene_img>img{border-radius:250px;}
+.bene_txt{width: 300px; height: 50px; color: black; text-align: center; font-size:1.2rem;}
+
+/*구매혜택*/
+.cnt03{background-image: url(image/pu_bg.jpg);}
+.pur_title{position: absolute!important; top: 120px; left: 160px; background: #4e83d4;}
+.pur_title>img{float:left; width:465px; height:112px;}
+.pur_title>h2{float:left; color: white; font-size: 4rem; line-height:104px;}
+.pur_info{width: 1600px; margin: 0 auto; top: 460px;}
+.pu_row{float: left; width: 50%;}
+.pu_num{background-image: url(image/num.png); width:77px; height:77px; float: left; text-align: center; color: white; font-size: 3rem; line-height: 79px; font-weight: bold;}
+.pu_t{float: left; font-size:2rem; margin-left:15px; line-height:75px; font-weight:bold;}
+.pu_down{clear:both; width:100%; margin-left: 100px; font-size:1rem; font-weight:bold; }
+.pu{clear:both; margin-bottom:80px;}
+
+
+
+/*로켓프레시*/
+.content .cnt04{
+    background-image:url(image/fresh_bg.jpg);
+}
+.left{position:absolute !important; top: 270px; left: 60%; }
+.fresh_title{margin-bottom:30px;}
+.left>ol>li{margin-bottom:10px; font-size:2rem;}
+
+/*쿠팡플레이*/
+.content .cnt05{background-image:url(image/play_bg.jpg);}
+.cplay_logo{position:absolute !important; top:100px; left:50%; transform:translateX(-50%);}
+.cplay_logo>img{width:370px; height:104px;}
+.cplay_title{text-align:center; top:194px; color:white; font-weight:bold; font-size:2.1rem;}
+.play_center{width: 80%; margin:0 auto; top: 270px;}
+.play_con{text-align:center; float: left; color: white; width: 33.33%;}
+.play_img{width: 220px; height: 150px; margin:0 auto;}
+.play_img>img{width:200px; height:130px;}
+
+.play_btn{width: 300px; height:60px; position:absolute !important; bottom: 120px; left:50%; transform:translateX(-50%); background:#4e83d4; text-align:center; color: white; line-height:60px; cursor:pointer;}
+
+/*faq
+.content .cnt06{background-color:black;}
+.question_box{max-width:1200px; width:100%; margin:0 auto; top:240px;}
+.asktit{text-align:center; color:white; }
+.ask{max-width:800px; width:100%; margin:0 auto; margin-top:20px;}
+.askbox{background-color:white; max-width:800px; width:100%; height: 50px; margin-bottom:10px; line-height:50px;}
+*/
+
+
+
+
